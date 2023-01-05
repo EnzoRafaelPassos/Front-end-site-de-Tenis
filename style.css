@@ -100,29 +100,14 @@ footer {
         font-size: 12px;
     }
 
-    .cards {
-        display: grid;
-        flex-direction: row;
-        grid-template-columns: 8fr;
-        grid-template-rows: 200px 200px 200px 200px 200px 200px 200px 200px;
+    .rectangle {
+
+        height: 300px;
 
     }
 
     .img-banner {
         display: none;
-    }
-
-    .banner {
-        height: calc(100vh - 1px);
-        background: no-repeat center/cover url(img/Air-Jordan-1-Retro-High-OG-Wmns-TWIST-Feminino\ 1\ \(1\).svg);
-        height: 300px;
-        width: 100%;
-    }
-
-    .rectangle {
-
-        height: 300px;
-
     }
 
     .titulo-banner {
@@ -135,6 +120,22 @@ footer {
         grid-template-rows: 100px;
 
     }
+
+    .banner {
+        height: calc(100vh - 1px);
+        background: no-repeat center/cover url(img/Air-Jordan-1-Retro-High-OG-Wmns-TWIST-Feminino\ 1\ \(1\).svg);
+        height: 300px;
+        width: 100%;
+    }
+
+    .cards {
+        display: grid;
+        flex-direction: row;
+        grid-template-columns: 8fr;
+        grid-template-rows: 200px 200px 200px 200px 200px 200px 200px 200px;
+
+    }
+
 
     .titulo-corpo {
 
