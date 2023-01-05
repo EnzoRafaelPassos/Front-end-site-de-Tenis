@@ -28,6 +28,8 @@ header {
     align-content: center;
 }
 
+
+
 .titulo-header {
     text-decoration: none;
     color: black;
@@ -66,7 +68,7 @@ header {
 
 .card {
     background-color: #EBE9EA;
-    display: grid;
+   
 
 }
 
@@ -90,4 +92,51 @@ footer {
     font-size: 10px;
 }
 
+@media screen and (max-width: 750px) {
+    .popup {
+       font-size: 12px;
+    }
+    .cards {
+        display: grid;
+        grid-template-columns: 10fr;
+        grid-template-rows: 200px 200px;
+    
+    }
 
+    .img-banner {
+        display: none;
+    }
+    
+    .banner{
+        height: calc(100vh - 1px);
+        background: no-repeat center/cover url(img/Air-Jordan-1-Retro-High-OG-Wmns-TWIST-Feminino\ 1\ \(1\).svg);
+        height: 300px;
+        width: 100%;
+    }
+
+    .rectangle {
+        
+        height: 300px;
+      
+    }
+
+    .titulo-banner {
+        position: absolute;
+        color: white;
+        width: 250px;
+        top: 160px;
+        left: 40px;
+        display: grid;
+        grid-template-rows: 100px;
+        
+    }
+
+    .titulo-corpo {
+       
+        width: 290px;
+        margin: 0;
+        margin-bottom: 50px;
+    }
+
+    
+}
