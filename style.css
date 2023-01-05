@@ -131,7 +131,7 @@ footer {
     .cards {
         display: grid;
         flex-direction: row;
-        grid-template-columns: 8fr;
+        grid-template-columns: 0fr;
         grid-template-rows: 200px 200px 200px 200px 200px 200px 200px 200px;
 
     }
